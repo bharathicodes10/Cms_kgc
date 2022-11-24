@@ -13,6 +13,7 @@ const salaryController = require("../controllers/salaryController");
 //const reportController=require("../controllers/reportController");
 const Budget=require("../controllers/productController");
 const budgetController=require("../controllers/budgetController");
+const projectController=require("../controllers/projectController");
 //_______________________________ Admin management_______________________________
 
 router.route("/admin/create").post(catchErrors(adminController.create));
@@ -55,6 +56,17 @@ router
 router.route("/product/search").get(catchErrors(productController.search));
 router.route("/product/list").get(catchErrors(productController.list));
 router.route("/orders").get(catchErrors(productController.orders));
+//_____________________________________ API for projects ___________________________
+router.route("/project/create").post(catchErrors(projectController.create));
+router.route("/project/read/:id").get(catchErrors(projectController.read));
+router
+  .route("/project/update/:id")
+  .patch(catchErrors(projectController.update));
+router
+  .route("/project/delete/:id")
+  .delete(catchErrors(projectController.delete));
+router.route("/project/search").get(catchErrors(projectController.search));
+router.route("/project/list").get(catchErrors(projectController.list));
 //_____________________________________ API for inventory ___________________________
 router.route("/inventory/create").post(catchErrors(inventoryController.create));
 router.route("/inventory/read/:id").get(catchErrors(inventoryController.read));

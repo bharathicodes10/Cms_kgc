@@ -63,15 +63,14 @@ function Navigation() {
             {/* <Link to="/report" /> */}
             <a href="http://localhost:3001/products">Report</a>
           </Menu.Item>
+          <Menu.Item key="34" icon={<SnippetsOutlined />}>
+            <Link to="/reports" />
+            Reports
+          </Menu.Item>
           <Menu.Item key="32" icon={<TeamOutlined />}>
             <Link to="/admin" />
             Admins Management
-          </Menu.Item>
-          {/* <Menu.Item key="4" icon={<FileSyncOutlined />}>
-            <Link to="/charts" />
-            Charts
-          </Menu.Item> */}
-          
+          </Menu.Item>        
           <Menu.Item key="4" icon={<FileSyncOutlined />}>
             <Link to="/inventory" />
             Inventory
@@ -80,10 +79,6 @@ function Navigation() {
             <Link to="/salary" />
             Salary
           </Menu.Item>
-          {/* <Menu.Item key="5" icon={<FileSyncOutlined />}>
-          <Link to="/report" />
-            Reports
-          </Menu.Item> */}
         </Menu>
       </Sider>
     </>

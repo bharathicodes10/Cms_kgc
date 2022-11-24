@@ -5,6 +5,7 @@ import PrivateRoute from "./PrivateRoute";
 import PublicRoute from "./PublicRoute";
 import PageLoader from "@/components/PageLoader";
 import ProductList from "@/pages/ProductList";
+// import DataTable from "@/pages/demo";
 
 const Dashboard = lazy(() =>
   import(/*webpackChunkName:'DashboardPage'*/ "@/pages/Dashboard")
@@ -26,7 +27,8 @@ const SelectCustomer = lazy(() =>
 
 const Lead = lazy(() => import(/*webpackChunkName:'LeadPage'*/ "@/pages/Lead"));
 const Product = lazy(() =>
-  import(/*webpackChunkName:'ProductPage'*/ "@/pages/Product")
+  // import(/*webpackChunkName:'ProductPage'*/ "@/pages/Product")
+  import("@/pages/Project")
 );
 const Inventory = lazy(() =>
   import(/*webpackChunkName:'ProductPage'*/ "@/pages/Inventory")
@@ -38,9 +40,9 @@ const ToolbarGrid = lazy(() =>
 const Logout = lazy(() =>
   import(/*webpackChunkName:'LogoutPage'*/ "@/pages/Logout")
 );
-// const Reports = lazy(() =>
-//   import(/*webpackChunkName:'NotFoundPage'*/ "@/pages/Reports/Reports")
-// );
+const DataTable = lazy(() =>
+  import(/*webpackChunkName:'NotFoundPage'*/ "@/pages/demo")
+);
 const ProductReport = lazy(() =>
   import(/*webpackChunkName:'NotFoundPage'*/ "@/pages/ProductList")
 );
@@ -73,6 +75,7 @@ export default function AppRouter() {
           <PrivateRoute component={Admin} path="/admin" exact />
           <PrivateRoute component={Salary} path="/salary" exact />
           <PrivateRoute component={ProductReport} path="/report" exact />
+          <PrivateRoute component={DataTable} path="/reports" exact />
           <PrivateRoute component={Logout} path="/logout" exact />
           <PublicRoute path="/login" render={() => <Redirect to="/" />} />
           <Route
