@@ -1,21 +1,11 @@
-# Starter Antd Admin (Crud & auth) Mern App (Express.js / React / Redux / MongoDB)
-
-```
-Don't forget please to ⭐ this repo if you like this Starter Antd Admin!
-```
+# kgc constructions inspired by Starter Antd Admin (Crud & auth) Mern App (Express.js / React / Redux / MongoDB)
 
 
-![starter-antd-admin-crud-auth-mern-crud-auth](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/opp4yj177dizyaosah0o.png)
 
 
-## CRM Starter Mern Antd Admin App 
+![cms](https://ibb.co/168H6DR)
 
-I build Starter Crm App based on mern stack (Express.js / MongoDb / React / Redux / AntD) with generic crud and auth , admin management .
 
-**Live App Demo** : [https://antd-admin-yle2f.ondigitalocean.app](https://antd-admin-yle2f.ondigitalocean.app)
-
-`username : admin@demon.com
-password : admin123`
 
 ```
 ## Setup backend
