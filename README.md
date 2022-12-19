@@ -1,14 +1,18 @@
-# kgc constructions inspired by Starter Antd Admin (Crud & auth) Mern App (Express.js / React / Redux / MongoDB)
-
+# Construction Management System inspired by Starter Antd Admin (Crud & auth) Mern App (Express.js / React / Redux / MongoDB)
+#Consultancy project for KGC constructions
 
 
 
 ![cms]([https://ibb.co/168H6DR](https://freeimage.host/i/H3BoOmb))
 
+#Screenshots
+<img width="960" alt="2022-11-30 (5)" src="https://user-images.githubusercontent.com/89197019/208354235-0f2ab607-7941-48fc-9481-e9fc647f56d9.png">
+<img width="960" alt="2022-11-30 (7)" src="https://user-images.githubusercontent.com/89197019/208354287-205dc6c1-a3bb-4f91-b2f1-f0dacba86545.png">
 
 
 ```
 ## Setup backend
+
 
 1) just create MongoDB Atlas accout database url 
 2) change this file name .variables.env.tmp to  .variables.env
