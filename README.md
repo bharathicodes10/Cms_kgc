@@ -1,14 +1,16 @@
 # Construction Management System inspired by Starter Antd Admin (Crud & auth) Mern App (Express.js / React / Redux / MongoDB)
-#Consultancy project for KGC constructions
+## Consultancy project for KGC constructions
 
 
 
-![cms]([https://ibb.co/168H6DR](https://freeimage.host/i/H3BoOmb))
 
-#Screenshots
+
+
+## Screenshots
 <img width="960" alt="2022-11-30 (5)" src="https://user-images.githubusercontent.com/89197019/208354235-0f2ab607-7941-48fc-9481-e9fc647f56d9.png">
 <img width="960" alt="2022-11-30 (7)" src="https://user-images.githubusercontent.com/89197019/208354287-205dc6c1-a3bb-4f91-b2f1-f0dacba86545.png">
-
+<img width="960" alt="2022-11-30 (2)" src="https://user-images.githubusercontent.com/89197019/208362405-fc4631a2-7c64-4ced-a041-a22117191921.png">
+<img width="960" alt="2022-11-24" src="https://user-images.githubusercontent.com/89197019/208362530-107c778e-72b7-43ac-9019-e09e538ba100.png">
 
 ```
 ## Setup backend
@@ -43,6 +45,7 @@
 * Generic Crud Api (Create / Read / Update / Delete)
 * Admin (User) Management Api
 * Auth by Jwt json web token
+* View live chart and generate reports
 
 ### Frontend :
 
@@ -52,5 +55,5 @@
 * Auth Component Login / Logout
 * Private Route and Public Route
 * Not Found Page
-* Beautiful UI Dashboard
+* Beautiful admin UI
 
